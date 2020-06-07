@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c39c38cc-c111-4367-b37a-760a95e1d060" name="Default Changelist" comment="first">
+    <list default="true" id="c39c38cc-c111-4367-b37a-760a95e1d060" name="Default Changelist" comment="last commit">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomNumberBetweenTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomNumberBetweenTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkNumberEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkNumberEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/days.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/perfectSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/perfectSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/printEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/printEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/totalLetterCountCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/totalLetterCountCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +44,80 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project1\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test1.getTotal2">
+    <configuration name="test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.getTotal1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="getTotal1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.getTotal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="getTotal2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.getTotal3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="getTotal3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.twoString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="twoString2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test1.getTotal2" />
+        <item itemvalue="JUnit.test1.getTotal1" />
+        <item itemvalue="JUnit.test1.getTotal3" />
+        <item itemvalue="JUnit.test1" />
+        <item itemvalue="JUnit.test1.twoString2" />
       </list>
     </recent_temporary>
   </component>
@@ -68,37 +139,73 @@
       <option name="project" value="LOCAL" />
       <updated>1589253446184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="last commit">
+      <created>1589253835249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589253835249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589253287556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253287556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589253416887">
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom" timestamp="1590970539528">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589255672155" />
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539528" />
+    <state width="1237" height="325" key="GridCell.Tab.0.center" timestamp="1590970539527">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589255672155" />
+    <state width="1237" height="325" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539527" />
+    <state width="1237" height="325" key="GridCell.Tab.0.left" timestamp="1590970539527">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589255672155" />
+    <state width="1237" height="325" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539527" />
+    <state width="1237" height="325" key="GridCell.Tab.0.right" timestamp="1590970539527">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589255672155" />
+    <state width="1237" height="325" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539527" />
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1590970539528">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539528" />
+    <state width="1237" height="325" key="GridCell.Tab.1.center" timestamp="1590970539528">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539528" />
+    <state width="1237" height="325" key="GridCell.Tab.1.left" timestamp="1590970539528">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539528" />
+    <state width="1237" height="325" key="GridCell.Tab.1.right" timestamp="1590970539528">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590970539528" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589253848923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253416887" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589253416886">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253848923" />
+    <state x="2264" y="383" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590959008450">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="2264" y="383" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1590959008450" />
+    <state x="342" y="140" key="new project wizard" timestamp="1589253964454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253416886" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589253416885">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253416885" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589253416886">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253416886" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589253466768">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253466768" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1589253964454" />
   </component>
 </project>

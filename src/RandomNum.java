@@ -33,6 +33,10 @@ public class RandomNum {
 
         //  code Start here don't change before this line
         // kodu burdan başlatın ve bu satırdan önceki kodları değiştirmeyin
-
+        double random=Math.random();
+        int max1= max;
+        double r1=random*max1;
+        int i1=(int)r1;
+        System.out.println(i1);
     }
 }

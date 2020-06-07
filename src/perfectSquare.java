@@ -57,5 +57,37 @@ public class perfectSquare {
         //  code Start here don't change before this line
         // kodu burdan başlatın ve bu satırdan önceki kodları değiştirmeyin
 
+
+        if(isPerfectSquare(input)){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+
+
     }
+
+    static boolean isPerfectSquare(int n)
+    {
+//        // sum is sum of all odd numbers. i is
+//        // used one by one hold odd numbers
+//        for (int sum = 0, i = 1; sum < n; i += 2) {
+//
+//
+//            //1,3  36   511
+//            sum += i;
+//            if (sum == n)
+//                return true;
+//        }
+     //
+
+        int kok=(int)(Math.sqrt(n));
+        if(n==(kok*kok)){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
 }

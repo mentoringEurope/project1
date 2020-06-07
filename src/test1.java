@@ -46,7 +46,7 @@ public class test1 {
         checkNumberEven.main(new String[0]);
 
         String result = "true";
-        Assert.assertTrue("out put should be true but your out put is" + getOutput() , getOutput().contains(result));
+        Assert.assertTrue("output true olmalı ama sizin output " + getOutput() , getOutput().contains(result));
     }
 
     @Test
@@ -57,7 +57,7 @@ public class test1 {
         checkNumberEven.main(new String[0]);
 
         String result = "false";
-        Assert.assertTrue("out put should be false but your out put is  " + getOutput() ,  getOutput().contains(result));
+        Assert.assertTrue("output false olmalı ama sizin output  " + getOutput() ,  getOutput().contains(result));
     }
 
     @Test
@@ -68,7 +68,7 @@ public class test1 {
         totalLetterCountCheck.main(new String[0]);
 
         String result = "false";
-        Assert.assertTrue("out put should be false but your out put is " + getOutput(), getOutput().contains(result));
+        Assert.assertTrue("output  false olmali ama sizin output " + getOutput(), getOutput().contains(result));
     }
 
     @Test
@@ -79,7 +79,7 @@ public class test1 {
         totalLetterCountCheck.main(new String[0]);
 
         String result = "true";
-        Assert.assertTrue("out put should be true but your out put is " + getOutput(),getOutput().contains(result));
+        Assert.assertTrue("output  true olmali ama sizin output " + getOutput(),getOutput().contains(result));
     }
 
     @Test
@@ -89,7 +89,7 @@ public class test1 {
 
         days.main(new String[0]);
 
-        Assert.assertTrue("out put should be friday but your out put is" + getOutput(), getOutput().toLowerCase().contains("friday"));
+        Assert.assertTrue("output friday olmalı ama siziin output" + getOutput(), getOutput().toLowerCase().contains("friday"));
     }
 
     @Test
@@ -99,7 +99,7 @@ public class test1 {
 
         days.main(new String[0]);
 
-        Assert.assertTrue("out put should be tuesday but your out put is" + getOutput(), getOutput().toLowerCase().contains("tuesday"));
+        Assert.assertTrue("output tuesday olmalı ama siziin output" + getOutput(), getOutput().toLowerCase().contains("tuesday"));
     }
 
     @Test
@@ -109,7 +109,7 @@ public class test1 {
 
         days.main(new String[0]);
 
-        Assert.assertTrue("out put should be sunday but your out put is" + getOutput(), getOutput().toLowerCase().contains("sunday"));
+        Assert.assertTrue("output sunday olmalı ama sizin output" + getOutput(), getOutput().toLowerCase().contains("sunday"));
     }
 
 
@@ -120,7 +120,7 @@ public class test1 {
 
         days.main(new String[0]);
 
-        Assert.assertTrue("out put should be this is not a valid day but your out put is " + getOutput(), getOutput().toLowerCase().contains("this is not a valid day"));
+        Assert.assertTrue("output  this is not a valid day olmalı ama sizin output " + getOutput(), getOutput().toLowerCase().contains("this is not a valid day"));
     }
 
     @Test
@@ -130,7 +130,7 @@ public class test1 {
 
         age.main(new String[0]);
 
-        Assert.assertTrue("out put should be ehliyet almak icin cok gencsin your out put is :: " + getOutput(), getOutput().toLowerCase().contains("ehliyet almak icin cok gencsin"));
+        Assert.assertTrue("output  ehliyet almak icin cok gencsin olmalı ama sizin output :: " + getOutput(), getOutput().toLowerCase().contains("ehliyet almak icin cok gencsin"));
     }
 
     @Test
@@ -140,7 +140,7 @@ public class test1 {
 
         age.main(new String[0]);
 
-        Assert.assertTrue("out put should be istedigini yapabilirsin your out put is :: " + getOutput() , getOutput().toLowerCase().contains("istedigini yapabilirsin"));
+        Assert.assertTrue("output istedigini yapabilirsin olmalı ama sizin output :: " + getOutput() , getOutput().toLowerCase().contains("istedigini yapabilirsin"));
     }
 
     @Test
@@ -150,7 +150,7 @@ public class test1 {
 
         age.main(new String[0]);
 
-        Assert.assertTrue("out put should be facebook hesabi acmak icin cok gencsin your out put is :: " + getOutput() , getOutput().toLowerCase().contains("facebook hesabi acmak icin cok gencsin"));
+        Assert.assertTrue("output  facebook hesabi acmak icin cok gencsin olmalı ama sizin output :: " + getOutput() , getOutput().toLowerCase().contains("facebook hesabi acmak icin cok gencsin"));
     }
 
 
@@ -161,7 +161,7 @@ public class test1 {
 
         perfectSquare.main(new String[0]);
 
-        Assert.assertTrue("out put should true your out put is :: " + getOutput() , getOutput().contains("true"));
+        Assert.assertTrue("output true olmalı ama sizin output :: " + getOutput() , getOutput().contains("true"));
     }
 
     @Test
@@ -171,7 +171,7 @@ public class test1 {
 
         perfectSquare.main(new String[0]);
 
-        Assert.assertTrue("out put should be false your out put is :: " + getOutput() , getOutput().toLowerCase().contains("false"));
+        Assert.assertTrue("output false olmalı ama sizin output :: " + getOutput() , getOutput().toLowerCase().contains("false"));
     }
 
     @Test
@@ -186,7 +186,7 @@ public class test1 {
             if(i%2==0) {
                 String num = String.valueOf(i);
 
-                Assert.assertTrue("out put should be false your out put is :: " + getOutput(), getOutput().contains(num));
+                Assert.assertTrue("output  false olmali ama sizin output :: " + getOutput(), getOutput().contains(num));
             }
         }
 
@@ -204,7 +204,7 @@ public class test1 {
             if(i%2==0) {
                 String num = String.valueOf(i);
 
-                Assert.assertTrue("out put should be true your out put is :: " + getOutput(), getOutput().contains(num));
+                Assert.assertTrue("output true olmali ama sizin output :: " + getOutput(), getOutput().contains(num));
             }
         }
 
@@ -226,7 +226,7 @@ public class test1 {
 
         int num = Integer.parseInt(s1.trim());
 
-        Assert.assertTrue("out put should be between 0 to 10 but  your out put is :: " + getOutput(), 0<=num && num <=10);
+        Assert.assertTrue("output  0 ile 10 arasinda olmali ama sizin output :: " + getOutput(), 0<=num && num <=10);
 
 
 
@@ -243,7 +243,7 @@ public class test1 {
 
         int num = Integer.parseInt(s1.trim());
 
-        Assert.assertTrue("out put should be between 0 to 20 but  your out put is :: " + getOutput(), 0<=num && num <=20);
+        Assert.assertTrue("output  0 ile 20 arasinda olmali ama sizin output :: " + getOutput(), 0<=num && num <=20);
 
     }
 
@@ -257,7 +257,7 @@ public class test1 {
 
         int num = Integer.parseInt(s1.trim());
 
-        Assert.assertTrue("out put should be between 70 to 100 but  your out put is :: " + getOutput(), 70<=num && num <=100);
+        Assert.assertTrue("output  70 ile 100 arasinda olmali ama sizin output :: " + getOutput(), 70<=num && num <=100);
 
     }
 
@@ -271,7 +271,7 @@ public class test1 {
 
         int num = Integer.parseInt(s1.trim());
 
-        Assert.assertTrue("out put should be between 40 to 70 but  your out put is :: " + getOutput(), 40<=num && num <=70);
+        Assert.assertTrue("output  40 ile 70 arasinda olmali ama sizin output :: " + getOutput(), 40<=num && num <=70);
 
     }
 
@@ -297,7 +297,7 @@ public class test1 {
 
         String s1 =getOutput();
 
-        Assert.assertTrue("out put should be -1 but  your out put is :: " + getOutput(), s1.contains("-1"));
+        Assert.assertTrue("output  -1 olmali but  your out put is :: " + getOutput(), s1.contains("-1"));
 
     }
 
@@ -326,7 +326,7 @@ public class test1 {
 
         int intOutput = Integer.parseInt(myOutput);
 
-        Assert.assertTrue("out put should be 5040 but your out put is :: " + getOutput(), intOutput==5040);
+        Assert.assertTrue("output 5040 olmalı ama sizin output :: " + getOutput(), intOutput==5040);
 
     }
 
@@ -341,7 +341,7 @@ public class test1 {
 
         int intOutput = Integer.parseInt(myOutput);
 
-        Assert.assertTrue("out put should be 362880 but your out put is :: " + getOutput(), intOutput==362880);
+        Assert.assertTrue("output  362880 olmalı ama sizin output :: " + getOutput(), intOutput==362880);
 
     }
 
@@ -354,7 +354,7 @@ public class test1 {
 
         String s1 =getOutput();
 
-        Assert.assertTrue("out put should be -1 but  your out put is :: " + getOutput(), s1.contains("catac"));
+        Assert.assertTrue("output  -1 olmali ama sizin output :: " + getOutput(), s1.contains("catac"));
 
     }
 
@@ -366,7 +366,7 @@ public class test1 {
 
         String s1 =getOutput();
 
-        Assert.assertTrue("out put should be -1 but  your out put is :: " + getOutput(), s1.contains("catdog"));
+        Assert.assertTrue("output  -1 olmali ama sizin output :: " + getOutput(), s1.contains("catdog"));
 
     }
 

@@ -44,8 +44,14 @@ public class countE {
 
          // code start here
          // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
+       int counter=0;
+        for (int i = 0; i <text.length() ; i++) {
+            if(text.charAt(i)=='b'){
+                counter++;
+            }
+        }
+        System.out.println(counter);
 
-
-    }
+        }
 
 }
